@@ -1,8 +1,9 @@
 resource "aws_autuscaling_group" "dev" {
     name = "dev"
     launch_configuration ="${aws_launch_configuration.dev.name}"
-    min = "{var.min_size}"
-    max = "{var.max_size}"
+    min_size = "{var.min_size}"
+    max_size = "{var.max_size}"
+    
 
   
 }

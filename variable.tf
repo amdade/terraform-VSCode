@@ -7,8 +7,8 @@ variable "Created_by" {}
 variable "Env" {}
 variable "Dept" {}
 variable "count" {}
-
-
+variable "max_size" {}
+variable "min_size" {}
 
 
 
